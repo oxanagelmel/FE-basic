@@ -1,0 +1,55 @@
+p {
+    color: brown;
+    background-color: aquamarine;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: 5px;
+
+    border: 2px dashed blue;
+   /* border-top: 3px dashed darkgoldenrod;*/
+    font-style: italic;
+}
+
+span{
+    color: darkblue;
+   /* background-color: beige !important;*/
+    font-style: italic;
+    font-weight: 100;
+    background-color: green;
+}
+div {
+    background-color: lightblue;
+    /*border-radius: 10px 30px 45px 120px;*/
+    /*border-radius: 10px;
+    border-bottom-left-radius: 55px;*/
+
+    /*border-radius: 15px 50px;
+    border: 2px dashed blue;*/
+
+    /*Внутренние отступы*/
+    /*
+    padding: 10px; для всех сторон
+    padding: 20px 40px; top/bottom и left/right
+    padding: 20px 30px 50px top и left/right и bottom
+    */
+    padding: 30px 12px 50px;
+
+    /*Внешние отступы*/
+    margin: 50px;
+}
+img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+}
+main {
+    background-color: lightgray;
+}
+#unique-article-about-myself {
+    padding: 10px 20px;
+    background-color: lightcyan;
+}
+#unique-article {
+    padding: 10px 20px;
+    background-color: red;
+}

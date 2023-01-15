@@ -1,0 +1,42 @@
+body {
+    color: black;
+    background-color: beige;
+    font-style: italic;
+    font-size: 20px;
+    line-height: 28px;
+}
+nav {
+    padding: 10 px;
+}
+img {
+    width: 500px;
+    height: 200px;
+    object-fit: cover;
+    padding: 10px;
+}
+img2 {
+    width: 20px;
+    height: 30px;
+}
+div {
+    border: 2px solid lightcoral;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+}
+footer {
+    padding: 10px;
+    color: white;
+    background-color: lightcoral;
+    border-radius: 10px;
+    margin: 10px;
+}
+nav {
+    padding: 10px;
+}
+h1{
+    color: rgb(247, 103, 103);
+}
+h2{
+    color: rgb(247, 103, 103);
+}
