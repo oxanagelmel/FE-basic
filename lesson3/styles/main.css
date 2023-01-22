@@ -1,0 +1,105 @@
+p {
+    font-size: 20px;
+}
+
+#unique-text {
+    background-color: lightblue;
+}
+
+.beige-bg {
+    background-color: beige;
+}
+
+.large-padding {
+    padding: 20px;
+}
+
+.color-red {
+    color: red;
+}
+
+.main-navigation {
+    padding: 20px 28px;
+    border-bottom: 2px solid green; 
+}
+ul, ol {
+    padding: 28px;
+}
+
+/*ol {
+    list-style-type: lower-alpha;
+}*/
+
+.styled-list {
+    /*list-style: ;*/
+    /*list-style-image: url(../img/star-trek-symbol.png);*/
+    /*list-style-type: armenian;*/
+    list-style-position: inside;
+}
+
+.to-do-list {
+    /*list-style: upper-roman;*/
+    list-style-type: upper-roman;
+}
+
+table, td, th {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+/*.colored-row {
+    background-color: aqua;
+}*/
+
+/*tr:first-child{
+    background-color: blueviolet;
+}*/
+
+/*окрасить не чётные*/
+/*tbody tr:nth-child(odd) { 
+    background-color: bisque;
+}
+
+/*окрасить чётные*/
+/*tbody tr:nth-child(even) { 
+    background-color: lightblue;
+}*/
+
+/* An+B 
+   A - целочисленнй размер шага 
+   B - смещение 
+   n - все неотрицательные числа с 0 */
+
+/*tbody tr:nth-child(5n) { 
+    background-color: red;
+}
+
+tbody tr:nth-child(2n+1) { 
+    background-color: lightcoral;
+}
+
+tbody tr:nth-child(2n) {
+    background-color: lightcyan;
+}
+
+tbody tr:nth-child(-2n+8) {
+    background-color: darkblue;
+    color: white;
+}*/
+
+
+.colored-table tbody tr:nth-child(4n + 1) {
+    background-color: magenta;
+}
+
+.colored-table tbody tr:nth-child(4n + 2) {
+    background-color: lightcoral;
+}
+
+.colored-table tbody tr:nth-child(4n + 3) {
+    background-color: lightblue;
+}
+
+.colored-table tbody tr:nth-child(4n + 4) {
+    background-color: blue;
+}

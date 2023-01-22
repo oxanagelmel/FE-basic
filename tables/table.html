@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Таблица успеваемости</title>
+    <style>
+        table, tr, td, th {
+            border: 2px solid blue;
+            border-collapse: collapse;
+        }
+        table {
+            width: 600px;
+            font-size: 24px;
+            line-height: 32px;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>Имя</th>
+                <th>Предмет</th>
+                <th>Семестр</th>
+                <th>Итоговый балл</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="3">Иван</td>
+                <td>Мат. анализ</td>
+                <td>Весна</td>
+                <td>5.0</td>
+            </tr>
+            <tr>
+                <td>Физика</td>
+                <td>Весна</td>
+                <td>4.5</td>
+            </tr>
+            <tr>
+                <td rowspan="3">Анна</td>
+                <td>Мат. анализ</td>
+                <td>Весна</td>
+                <td>4.4</td>
+            </tr>
+            <tr>
+                <td>ООП</td>
+                <td>Осень</td>
+                <td>4.8</td>
+            </tr>
+            <tr>
+                <td>ООП</td>
+                <td>Осень</td>
+                <td>5.0</td>
+            </tr>
+            <tr>
+                <td>Физика</td>
+                <td>Весна</td>
+                <td>5.0</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
+
