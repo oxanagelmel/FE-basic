@@ -7,13 +7,17 @@
     <title>Таблица успеваемости</title>
     <style>
         table, tr, td, th {
-            border: 2px solid blue;
+            border: 2px solid black;
             border-collapse: collapse;
+            padding: 10px;
         }
         table {
             width: 600px;
             font-size: 24px;
             line-height: 32px;
+        }
+        thead {
+            background-color: bisque;
         }
     </style>
 </head>
@@ -29,7 +33,7 @@
         </thead>
         <tbody>
             <tr>
-                <td rowspan="3">Иван</td>
+                <td rowspan="2">Иван</td>
                 <td>Мат. анализ</td>
                 <td>Весна</td>
                 <td>5.0</td>
@@ -40,7 +44,7 @@
                 <td>4.5</td>
             </tr>
             <tr>
-                <td rowspan="3">Анна</td>
+                <td rowspan="4">Анна</td>
                 <td>Мат. анализ</td>
                 <td>Весна</td>
                 <td>4.4</td>

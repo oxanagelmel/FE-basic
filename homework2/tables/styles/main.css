@@ -1,0 +1,13 @@
+table, tr, td, th {
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+table {
+    width: 1200px;
+    font-size: 26px;
+    line-height: 40px;
+    padding: 10px;
+}
+#in-to-middle {
+    padding-left: 60px;
+}
