@@ -1,3 +1,7 @@
+header {
+    padding: 10px;
+}
+
 body {
     color: black;
     background-color: beige;
@@ -14,9 +18,10 @@ img {
     object-fit: cover;
     padding: 10px;
 }
-img2 {
-    width: 20px;
-    height: 30px;
+#telegram-logo {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
 }
 div {
     border: 2px solid lightcoral;
@@ -36,7 +41,31 @@ nav {
 }
 h1{
     color: rgb(247, 103, 103);
+    letter-spacing: 3px;
+    padding: 10px;
 }
 h2{
     color: rgb(247, 103, 103);
+}
+h3 {
+    padding: 10px;
+    margin: 0px;
+}
+#our-team {
+    width: 900px;
+    height: 500px;
+    object-fit: cover;
+    padding: 10px;
+}
+a {
+    padding: 10px;
+}
+#in-to-middle {
+    padding: 50px;
+}
+#our-prices {
+    width: 1100px;
+    height: 1300px;
+    object-fit: cover;
+    padding: 10px;
 }
