@@ -1,0 +1,80 @@
+/*TTF & OFT*/
+/*WOFF & WOFF2*/
+
+@font-face {
+    font-family: "";
+    font-weight: 400;
+    font-style: normal;
+    src:    local(""), 
+            url() format(),
+            url() format();
+}
+
+.headline-main {
+    font-size: 32px;
+    line-height: 40px;
+}
+
+.headline-bold {
+    font-weight: 900;
+    font-family: '', Helvetica, sans-serif;
+}
+
+.prg {
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.prg-regular {
+    font-weight: 100;
+    font-family: '', Helvetica, sans-serif;
+    font-size: 2rem;
+}
+
+svg {
+    width: 48px;
+    height: 48px;
+    fill: blue;
+    stroke: blueviolet;
+}
+
+.icon-font--item {
+    font-size: 48px;
+    color: blueviolet;
+}
+
+.prg-thin {
+    width: 50%;
+}
+
+.wide-separator {
+    width: 100%;
+    height: 50px;
+    /* paddin': 10px; */
+    background-color: lightblue;
+    text-align: center;
+}
+
+.thin-separator {
+    height: 50px;
+    width: 33%;
+    background-color: green;
+    margin: 0 auto;
+}
+
+.wide-separator--viewport {
+    /* viewport width */
+    width: 100vw;
+    /* viewport height */
+    /* height: 50vh; */
+    font-size: 10px;
+}
+
+.thin-separator--viewport {
+    width: 10vmax;
+}
+
+.wide-separator--viewport p,
+.wide-separator--viewport span {
+    font-size: 1.5em;
+}
