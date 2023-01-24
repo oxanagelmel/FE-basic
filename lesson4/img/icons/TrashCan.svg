@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.3.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 20 20" style="enable-background:new 0 0 20 20;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;}
+</style>
+<symbol  id="material_x5F_system_x5F_icon_x5F_border" viewBox="-24 -24 48 48">
+	<rect x="-24" y="-24" class="st0" width="48" height="48"/>
+</symbol>
+<g>
+	<g>
+		<path d="M6.7,16.7C6.8,17.4,7.5,18,8.3,18h3.5c0.8,0,1.5-0.6,1.6-1.3L15,7H5L6.7,16.7z"/>
+		<polygon points="11.9,3 11.9,2 8.1,2 8.1,3 4,3 4,5 16,5 16,3 		"/>
+	</g>
+	<g>
+		<defs>
+			<rect id="SVGID_1_" x="0" y="0" width="20" height="20"/>
+		</defs>
+		<clipPath id="SVGID_2_">
+			<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+		</clipPath>
+		<g style="clip-path:url(#SVGID_2_);">
+			
+				<use xlink:href="#material_x5F_system_x5F_icon_x5F_border"  width="48" height="48" id="XMLID_300_" x="-24" y="-24" transform="matrix(0.4167 0 0 -0.4167 10.001 10.001)" style="overflow:visible;"/>
+		</g>
+	</g>
+	<rect y="0" class="st0" width="20" height="20"/>
+</g>
+</svg>
