@@ -13,9 +13,9 @@
     <header class="bg-aqua flex flex-justify--between header">
         <img src="./imgs/logo.png" alt="Компания Icon. Логотип">
         <nav class="flex gap-20">
-            <a href="#">О нас</a>
-            <a href="#">Проекты</a>
-            <a href="#">Контакты</a>
+            <a class="text-black" href="#">О нас</a>
+            <a class="text-black" href="#">Проекты</a>
+            <a class="text-black" href="#">Контакты</a>
         </nav>
         <div class="flex gap-20">
             <a href="https://instagram.com" target="_blank">
@@ -55,27 +55,31 @@
             </div>
         </section>
     </main>
-    <footer>
-        <h2>Контакты</h2>
-        <section>
-            <div>
-               <h4>АДРЕС:</h4> 
-               <address>
+    <footer class="footer">
+        <h2 class="text-black">Контакты</h2>
+        <section class="flex">
+            <div class="flex flex-direction--column gap-25 contacts-item">
+                <i class="fa-solid fa-map-pin contacts-item--icon"></i>
+               <h4 class="contacts-item--text text-grey">АДРЕС:</h4> 
+               <address class="contacts-item--text">
                 НЕВСКИЙ ПРОСПЕКТ 140,
                 ОФИС 140-142
                </address>
             </div>
-            <div>
-                <h4>ТЕЛЕФОН:</h4> 
+            <div class="flex flex-direction--column">
+                <i class="fa-solid fa-phone"></i> 
+                <h4>ТЕЛЕФОН:</h4>
                 <a href="tel:+78121112233">8 (812) 111-22-33</a>
                 <a href="tel:+78121112233">8 (812) 111-22-33</a>
             </div>
-            <div>
+            <div class="flex flex-direction--column">
+                <i class="fa-regular fa-clock"></i>
                 <h4>ВРЕМЯ РАБОТЫ:</h4> 
                 <p>ПН-СБ</p>
                 <p><time>10:00</time> - <time>20:00</time> </p>
             </div>
-            <div>
+            <div class="flex flex-direction--column">
+                <i class="fa-solid fa-envelopen"></i>
                 <h4>E-MAIL:</h4> 
                 <a href="mailto:INFO@VIP.RU">INFO@VIP.RU</a>
             </div>
