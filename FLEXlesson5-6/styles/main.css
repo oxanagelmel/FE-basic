@@ -26,7 +26,6 @@
     color: #000
 }
 
-
 .flex {
     display: flex;
 }
@@ -91,14 +90,13 @@
     gap: 25px;
 }
 
-.contacts-item {
+.contacts-item{
     align-items: center;
 }
 
 .contacts-item address {
     text-align: center;
     font-style: normal;
-
 }
 
 .contacts-item--text {
@@ -114,4 +112,49 @@
 
 .text-grey {
     color: #999;
+}
+
+.phone-item {
+    align-items: center;
+}
+
+.phone-item--text {
+    font-size: 24px;
+    line-height: 35px;
+    font-family: 'Oswald-Medium', Times, serif;
+}
+
+.phone-item--icon {
+    color: #F7654A;
+    font-size: 48px;
+}
+
+.clock-item {
+    align-items: center;
+}
+
+.clock-item--text {
+    font-size: 24px;
+    line-height: 35px;
+    font-family: 'Oswald-Medium', Times, serif;
+}
+
+.clock-item--icon {
+    color: #F7654A;
+    font-size: 48px;
+}
+
+.mail-item {
+    align-items: center;
+}
+
+.mail-item--text {
+    font-size: 24px;
+    line-height: 35px;
+    font-family: 'Oswald-Medium', Times, serif;
+}
+
+.mail-item--icon {
+    color: #F7654A;
+    font-size: 48px;
 }
