@@ -18,8 +18,16 @@
         url("../font/Oswald-Medium.woff") format("woff");
 }
 
+body {
+    font-family: 'Inter Regular', Times, serif;
+}
+
 .bg-aqua {
     background-color: #1ABC9C;
+}
+
+.bg-light-green {
+    background-color: #DCFFEB;
 }
 
 .text-black {
@@ -57,13 +65,13 @@
 .nav {
     font-size: 25px;
     line-height: 30px;
-    font-family: 'Inter Regular', Times, serif;
+    /* font-family: 'Inter Regular', Times, serif; */
 }
 
-.nav a {
+/* .nav a {
     text-decoration: none;
     font-family: 'Inter Regular', Times, serif;
-}
+} */
 
 .header > img {
     width: 101px;
@@ -112,6 +120,21 @@
 
 .text-grey {
     color: #999;
+}
+
+.about-us {
+    min-height: 695px;
+}
+
+.about-us img,
+.about-us div {
+    width: 50%;
+}
+
+.about-us div {
+    padding: 20px 70px 20px 62px;
+    align-items: center;
+    justify-content: center;
 }
 
 .phone-item {
