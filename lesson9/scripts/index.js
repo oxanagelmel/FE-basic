@@ -37,6 +37,7 @@ let websiteUser = {
 console.log(websiteUser);
 console.log(websiteUser.username);
 console.log(websiteUser['currentCity']);
+  
 
 // websiteUser.isModerator = true;
 // console.log(websiteUser);
