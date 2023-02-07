@@ -2,7 +2,9 @@
 
 console.log("Connected");
 
+
 // while
+
 
 // while (true) {
 //  тело цикла
