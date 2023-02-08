@@ -29,7 +29,9 @@ main {
 .modal {
     width: 100%;
     height: 100vh;
-    position: relative;
+    position: fixed;
+    top: 0;
+    left: 0;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -52,3 +54,41 @@ main {
     padding: 10px;
     z-index: 1;
 }
+
+.chapter {
+    width: 100%;
+    max-width: 80vw;
+}
+
+.chapter:not(:last-of-type){
+    margin-bottom: 32px;
+}
+
+.separator {
+    background-color: darkgreen;
+    height: 2px;
+    margin-bottom: 12px;
+}
+
+.text {
+    word-wrap: break-word;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.text:not(:last-child){
+    margin-bottom: 20px;
+}
+
+
+.text--quote {
+    font-style: italic;
+}
+
+.sticky {
+    padding: 30px;
+    background-color: green;
+    position: sticky;
+    top: 50px;
+    z-index: 10;
+} 

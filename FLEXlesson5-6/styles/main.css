@@ -48,7 +48,7 @@ body {
     align-items: center;
 }
 
-.header div {
+/* .header div {
     display: flex;
     gap: 20px;
 }
@@ -56,7 +56,7 @@ body {
 .header nav {
     display: flex;
     gap: 20px;
-}
+} */
 
 .gap-20 {
     gap: 20px;
@@ -77,17 +77,24 @@ body {
     width: 101px;
     height: 26px;
     object-fit: contain;
-    object-position: center;
-}
-.footer {
-    padding: 84px, 70px, 76px;
+    /* object-position: center; */
 }
 
+.footer {
+    padding: 84px 70px 76px;
+}
+
+
+.projects > h2,
 .footer > h2 {
     font-size: 35px;
     line-height: 42px;
     font-family: 'Inter Regular', Times, serif;
     margin-bottom: 55px;
+}
+
+.projects > h2 {
+    margin-bottom: 50px;
 }
 
 .flex-direction--column {
@@ -118,23 +125,12 @@ body {
     font-size: 48px;
 }
 
+.text-red {
+    color: #F7654A;
+}
+
 .text-grey {
     color: #999;
-}
-
-.about-us {
-    min-height: 695px;
-}
-
-.about-us img,
-.about-us div {
-    width: 50%;
-}
-
-.about-us div {
-    padding: 20px 70px 20px 62px;
-    align-items: center;
-    justify-content: center;
 }
 
 .phone-item {
@@ -182,7 +178,70 @@ body {
     font-size: 48px;
 }
 
-.our-projects {
-    width: 100%;
-    height: 100vh;
+
+.about-us {
+    min-height: 695px;
+}
+
+.about-us img, 
+.about-us div {
+    width: 50%;
+}
+
+.about-us div {
+    padding: 20px 70px 20px 62px;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-us div > p {
+    text-align: justify;
+    margin-top: 23px;
+}
+
+.about-us img {
+    object-fit: cover;
+}
+
+.flex--center {
+    align-items: center;
+    justify-content: center;
+}
+
+.projects  {
+    padding: 124px 65px 126px 64px;
+}
+
+.gap-projects {
+    gap: 37px;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.project-card {
+    width: calc((100% - 2*37px)/3);  /* это вариант с использованием динамических расчетов - мы с подобным еще не знакомы, но для общего ознакомления можно изучить*/
+    /* width: 31.525%; если дизайнер говорит, что карточки динамической ширины и на основном разрешении и больше их всегда должно быть 3 */
+    /* width: 436px; если дизайнер говорит, что карточки всегда фиксированной ширины и меняется их количество в строке на разных разрешениях */
+    min-height: 376px;
+    color: #fff;
+    background-image: url("../imgs/arena.png");
+    background-position: center;
+    background-size: cover;
+    justify-content: flex-end;
+    padding: 0px 36px;
+}
+
+
+.project-card h3 {
+    font-size: 24px;
+    line-height: 35px;
+    font-family: 'Oswald-Medium', Times, serif;
+}
+
+.project-card p {
+    margin-bottom: 2px;
+    font-size: 16px;
+    line-height: 22px;
 }
