@@ -19,7 +19,7 @@
 }
 
 body {
-    font-family: 'Inter Regular', Times, serif;
+    font-family: 'Inter-Regular', Times, serif;
 }
 
 .bg-aqua {
@@ -65,12 +65,12 @@ body {
 .nav {
     font-size: 25px;
     line-height: 30px;
-    /* font-family: 'Inter Regular', Times, serif; */
+    /* font-family: 'Inter-Regular', Times, serif; */
 }
 
 /* .nav a {
     text-decoration: none;
-    font-family: 'Inter Regular', Times, serif;
+    font-family: 'Inter-Regular', Times, serif;
 } */
 
 .header > img {
@@ -89,7 +89,7 @@ body {
 .footer > h2 {
     font-size: 35px;
     line-height: 42px;
-    font-family: 'Inter Regular', Times, serif;
+    font-family: 'Inter-Regular', Times, serif;
     margin-bottom: 55px;
 }
 
