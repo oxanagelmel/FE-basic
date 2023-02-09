@@ -87,8 +87,8 @@ main {
 
 .sticky {
     padding: 30px;
-    background-color: green;
+    background-color: rgb(30, 105, 60);
     position: sticky;
-    top: 50px;
+    top: 50 px;
     z-index: 10;
 } 
