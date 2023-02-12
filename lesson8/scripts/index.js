@@ -75,6 +75,8 @@ console.log('b'+'a'+ +'c');
 // const finalSum = +enteredFirstNum + +enteredSecondNum;
 // console.log(finalSum);
 
+
+
 //Операторы сравнения и условные операторы
 
 // =, ==, ===
@@ -95,6 +97,7 @@ if(month === "Январь") {
 } else {
     console.log(`Это ${month}`);
 }
+
 
 // // условие ? если правда : если ложь
 
