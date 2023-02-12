@@ -1,4 +1,4 @@
 "use strict"
 
-console.log("Connedted")
+console.log("Connected")
 
