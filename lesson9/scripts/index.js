@@ -68,7 +68,7 @@ console.log("isAdmin" in websiteUser);
 // quantity: number
 
 
-const items = [ // в квадратных скобках объявляем массив и ложим во внутрь 2 объекла
+const items = [ // в квадратных скобках объявляем массив и ложим во внутрь 2 объекта
     {
         title: "Harry Potter and the Goblet of Fire",
         description: "New adventures of Harry Potter and his friends",
