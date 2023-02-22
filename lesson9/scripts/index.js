@@ -66,9 +66,9 @@ console.log("isAdmin" in websiteUser);
 // price: number
 // isOnSale: boolean
 // quantity: number
-// Если товар на скидке, вывести в консоль его финальную цену, умноженную на 20%
 
-const items = [
+
+const items = [ // в квадратных скобках объявляем массив и ложим во внутрь 2 объекла
     {
         title: "Harry Potter and the Goblet of Fire",
         description: "New adventures of Harry Potter and his friends",
@@ -89,6 +89,7 @@ const items = [
 
 console.log(items);
 
+// Если товар на скидке, вывести в консоль его финальную цену, умноженную на 20% 
 for(let i=0; i < items.length; i++) {
     if(items[i].isOnSale) {
         console.log(items[i].price - items[i].price*0.2);
@@ -96,7 +97,7 @@ for(let i=0; i < items.length; i++) {
     //вывести в консоль пару ключ-значение (key: value) каждого товара\
     for (let key in items[i]) {
         console.log(`Свойство ${key} со значением ${items[i][key]}`);
-    }
+    } // items[i] = object
 }
 
 for (let key in websiteUser){
@@ -117,8 +118,8 @@ console.log(false || true);
 console.log(true || false);
 console.log (false || false);
 
-let hour = 22;
-if(hour < 10 || hour >19) {
+let hour = 18;
+if(hour < 10 || hour > 19) {
     console.log("офис закрыт")
 }else {
     console.log("офис открыт!")
@@ -137,11 +138,14 @@ console.log (false && false);
 let minutes = 30;
 
 if(hour === 12 && minutes === 30) {
-    console.log('Время пить кофе!')
+    console.log('Время пить кофе!');
 }
+
 console.log("" && "Hello!");
 
-console.log("" || "Hello!" && "Hi!");
+console.log("" || "Hello!" && "Hi!"); // первым выполняется && а потом ||
+// если оба значения правдивы значит возвращается последнее, 
+// например "Hello!" && "Hi!", а дальше Hi! сравнивается ( || ) с пустой строкой и возвращается первое правдивое значение
 
 // НЕ !
 console.log("НЕ !")
